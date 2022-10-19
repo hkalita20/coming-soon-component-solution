@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header><img src="./images/logo.svg" alt="Brand-logo" class="logo-brand"></header>
+
+  <div class="container">
+ 
+    <div class="left">
+
+      
+      <h1 class="heading"><span class="colour"> WE'RE</span><br> COMING<br> SOON</h1>
+
+  <p class="main-text">Hello fellow shoppers! We're currently building our new fashion store. 
+    Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+      <form method="post" action="#" onsubmit="return validate()">       
+        <input type="input" placeholder="Email Address" name="Email" id="email">
+
+          <img src="./images/icon-error.svg" alt="" class="error-icon hide"/>
+
+        <button type="submit" class="search" value="search">></button>
+        <p class="alert hide">Please provide a valid email</p>
+      </form>
+  </div>
+
+  <div class="right"></div>
+
+</div>   
+  
+
+  <script src="index.js"></script>
+  
+</body>
+</html>
